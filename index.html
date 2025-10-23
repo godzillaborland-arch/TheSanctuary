@@ -46,53 +46,12 @@
   <!-- Main container -->
   <main class="max-w-4xl mx-auto p-4 md:p-6 space-y-10">
 
-    <!-- Quick Links with Icons -->
-    <section>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        <!-- Blog -->
-        <a href="http://quantumviewpoint.blogspot.com/"
-           class="btn bg-white text-gray-700 p-3 rounded-lg text-center font-semibold border border-indigo-200 hover:bg-indigo-50 flex flex-col items-center justify-center">
-          <svg class="w-6 h-6 mb-1 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M19 21H5a2 2 0 01-2-2V7a2 2 0 012-2h5l2-2h7a2 2 0 012 2v16a2 2 0 01-2 2z"/>
-          </svg>
-          Blog
-        </a>
-        <!-- YouTube -->
-        <a href="https://www.youtube.com/playlist?list=PLPA2J3pvHbj6XSZ9HzSjYVB0xtjnxETdv"
-           class="btn bg-white text-gray-700 p-3 rounded-lg text-center font-semibold border border-indigo-200 hover:bg-indigo-50 flex flex-col items-center justify-center">
-          <svg class="w-6 h-6 mb-1 text-red-500" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M10 15l5.19-3L10 9v6zm12-3c0-2.76-2.24-5-5-5H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5z"/>
-          </svg>
-          Videos
-        </a>
-        <!-- Spotify -->
-        <a href="https://open.spotify.com/playlist/3eNqGBuC1oKbhlYlvRzKh5"
-           class="btn bg-white text-gray-700 p-3 rounded-lg text-center font-semibold border border-indigo-200 hover:bg-indigo-50 flex flex-col items-center justify-center">
-          <svg class="w-6 h-6 mb-1 text-green-500" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.475 2 2 6.477 2 12s4.475 10 10 10 10-4.477 10-10S17.525 2 12 2zm4.528 14.713a.75.75 0 01-1.042.274c-2.843-1.73-6.438-2.12-10.17-1.109a.75.75 0 11-.385-1.453c4.07-1.08 8.016-.64 11.157 1.282a.75.75 0 01.44 1.006zm1.3-2.765a.9.9 0 01-1.248.33c-3.268-1.96-8.248-2.533-12.128-1.3a.9.9 0 01-.535-1.72c4.285-1.33 9.728-.69 13.406 1.555a.9.9 0 01.505 1.135zM18 9.5c-3.8-2.15-9.046-2.34-13-.65a1 1 0 11-.667-1.885C8.86 6.065 15 6.29 19.25 8.75a1 1 0 11-1.25.75z"/>
-          </svg>
-          Playlists
-        </a>
-        <!-- Contact -->
-        <a href="mailto:godzilaborland@gmail.com"
-           class="btn bg-indigo-500 text-white p-3 rounded-lg text-center font-semibold border border-indigo-700 hover:bg-indigo-600 flex flex-col items-center justify-center col-span-2 sm:col-span-1">
-          <svg class="w-6 h-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M16 12H8m8-6H8m8 12H8m12-9v9a2 2 0 01-2 2H6a2 2 0 01-2-2V9m16 0L12 4 4 9"/>
-          </svg>
-          Contact Me
-        </a>
-        <!-- Meditation App -->
-        <a href="https://godzillaborland-arch.github.io/meditation-stages-monitor-app/"
-           class="btn bg-cyan-500 text-white p-3 rounded-lg text-center font-semibold border border-cyan-700 hover:bg-cyan-600 flex flex-col items-center justify-center col-span-2 sm:col-span-1">
-          <svg class="w-6 h-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 4v16m8-8H4"/>
-          </svg>
-          Meditation App
-        </a>
-      </div>
+    <!-- Navigation Buttons -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+      <a href="http://quantumviewpoint.blogspot.com/" class="btn bg-white p-4 rounded-xl font-semibold border hover:bg-indigo-50 flex flex-col items-center">📘 Blog<span class="text-xs text-gray-500 mt-1">Spiritual deep dives</span></a>
+      <a href="https://youtube.com/playlist?list=PLPA2J3pvHbj6XSZ9HzSjYVB0xtjnxETdv" class="btn bg-white p-4 rounded-xl font-semibold border hover:bg-indigo-50 flex flex-col items-center">▶️ Videos<span class="text-xs text-gray-500 mt-1">Exploring meditation</span></a>
+      <a href="https://open.spotify.com/playlist/3eNqGBuC1oKbhlYlvRzKh5" class="btn bg-white p-4 rounded-xl font-semibold border hover:bg-indigo-50 flex flex-col items-center">🎵 Playlists<span class="text-xs text-gray-500 mt-1">Spotify playlists</a>
+      <a href="mailto:godzilaborland@gmail.com" class="btn bg-white p-4 rounded-xl font-semibold border hover:bg-indigo-50 flex flex-col items-center">✉️ Contact Me<span class="text-xs text-gray-500 mt-1">Send an email</span></a>
     </section>
 
     <!-- Latest Content by Theme (compact grid) -->
